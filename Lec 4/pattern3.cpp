@@ -2,6 +2,7 @@
 1234
 1234
 1234
+1234
 */
 /*#include<iostream>
 using namespace std;
@@ -42,10 +43,10 @@ int main(){
     int i = 1;
     while (i <= n )
     {
-        int j = 3;
+        int j = n;
         while (j >= 1)
         {
-            cout << j;
+            cout << j; //n-j+1
             j--;
         }
         cout << endl;
