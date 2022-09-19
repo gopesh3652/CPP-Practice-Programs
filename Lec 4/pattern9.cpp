@@ -7,7 +7,7 @@
 */
 
 //Solution 1
-
+/*
 #include<iostream>
 using namespace std;
 
@@ -32,6 +32,7 @@ int main(){
     
     return 0;
 }
+*/
 
 //Solution 2
 
@@ -46,11 +47,9 @@ int main(){
     while (i <= n)
     {
         int j = 1;
-        int value = i;
         while (j <= i)
         {
-            cout << value; // i-j+1
-            value--;
+            cout << i-j+1;
             j++;
         }
         cout << endl;
